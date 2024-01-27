@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            overflow characteristics
+        </title>
+        <style>
+            #head{
+                border: solid black 1px;
+            }
+            .container{
+                border: solid skyblue 2px;
+                height: 200px;
+                width: 100%;
+                overflow: auto;
+            }
+            .container2{
+                border: solid skyblue 2px;
+                height: 200px;
+                width: 100%;
+                overflow: hidden;
+
+            }
+            .container3{
+                border: solid skyblue 2px;
+                height: 200px;
+                width: 100%;
+                overflow:scroll;
+
+            }
+            .container4{
+                border: solid skyblue 2px;
+                height: 200px;
+                width: 100%;
+                overflow:visible;
+
+            }
+            #one{
+                border: solid black 1px;
+                height: 600px;
+                width: 200px;
+                float: left;
+            
+            }
+            #two{
+                border: solid black 1px;
+                height: 600px;
+                width: 200px;
+                float: left;
+                
+            }
+            #three{
+                border: solid black 1px;
+                height: 600px;
+                width: 200px;
+                float: left;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="head">
+        <h1>
+            Overflow:
+        </h1>
+        <p>
+            here the elements inside the div are overfowing its container. so to end this error
+            we use "Overflow techniqes"</br>
+            <ul> <li>like auto: computer automatically adjusts the container</li>
+                <li>hidden: keep the content in the container untill its full capacity, after that the content is hidden.</li>
+                <li>scroll: make a scroller to scroll down the content within the container.</li>
+                <li>visible: dosen't matter the size of container, it will spill out the content.</li>
+            </ul>
+        </p>
+    </div>
+    <h1> using overflow:auto;</h1>
+    <div class="container">
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three">C</div>
+    </div>
+    <h1> using overflow:hidden;</h1>
+    <div class="container2">
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three">C</div>
+    </div>
+    <h1> using overflow:scroll;</h1>
+    <div class="container3">
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three">C</div>
+    </div>
+    <h1> using overflow:visible;</h1>
+    <div class="container4">
+        <div id="one">A</div>
+        <div id="two">B</div>
+        <div id="three">C</div>
+    </div>
+    </body>
+
+</html>

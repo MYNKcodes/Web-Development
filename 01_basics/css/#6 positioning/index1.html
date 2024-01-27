@@ -1,0 +1,55 @@
+<!--relative positioning: in this property, the space occupied by the object is remained stored-->
+<!--you can use left,right,top,bottom tags-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            relative positioning
+        </title>
+        <style>
+            .container{
+                border: solid black 1px;
+            }
+            img{
+                margin: 10px;
+            }
+            .second{
+                position: relative;
+                top: 100px;
+                left: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+            src="one.JPG"
+            alt="first"
+            height="200px"
+            width="300px"
+            class="first"
+            />
+            <img
+            src="two.jpeg"
+            alt="second"
+            height="200px"
+            width="300px"
+            class="second"
+            />
+            <img
+            src="three.JPG"
+            alt="third"
+            height="200px"
+            width="300px"
+            class="third"
+            />
+            <img
+            src="four.jpeg"
+            alt="fourth"
+            height="200px"
+            width="300px"
+            class="fourth"
+            />
+        </div>
+    </body>
+</html>

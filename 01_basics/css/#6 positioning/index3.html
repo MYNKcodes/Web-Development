@@ -1,0 +1,58 @@
+<!--fixed positioning: in this property, the element which you position fixed, is litterally fixed.-->
+<!-- the position of that element in your WEBPAGE remains fixed, either you scroll up or down, it wont bulge -->
+<!-- you can use top,left,right -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            fixed positioning
+        </title>
+        <style>
+            .container{
+                border: solid black 1px;
+                height: 3000px;
+
+            }
+            img{
+                margin: 10px;
+            }
+            .second{
+                position: fixed;
+                top: 100px;
+                left: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+            src="one.JPG"
+            alt="first"
+            height="200px"
+            width="300px"
+            class="first"
+            />
+            <img
+            src="two.jpeg"
+            alt="second"
+            height="200px"
+            width="300px"
+            class="second"
+            />
+            <img
+            src="three.JPG"
+            alt="third"
+            height="200px"
+            width="300px"
+            class="third"
+            />
+            <img
+            src="four.jpeg"
+            alt="fourth"
+            height="200px"
+            width="300px"
+            class="fourth"
+            />
+        </div>
+    </body>
+</html>

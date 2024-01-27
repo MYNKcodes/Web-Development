@@ -1,0 +1,72 @@
+<!--sticky positioning: in this property, the element which you position fixed, is litterally fixed inside its parent.-->
+<!-- the position of that element in your div remains fixed, either you scroll up or down, it wont bulge until div ends. -->
+<!-- you can use top,left,right,bottom -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            sticky positioning
+        </title>
+        <style>
+            .container{
+                border: solid black 1px;
+                height: 3000px;
+                background-color: bisque;
+
+            }
+            img{
+                margin: 10px;
+            }
+            .second{
+                position: fixed;
+                top: 100px;
+                left: 50px;
+            }
+            .fourth{
+                position: sticky;
+                top: 150px;
+
+            }
+            #blank{
+                background-color: aquamarine;
+                height: 2000px;
+                border: solid rebeccapurple 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+            src="one.JPG"
+            alt="first"
+            height="200px"
+            width="300px"
+            class="first"
+            />
+            <img
+            src="two.jpeg"
+            alt="second"
+            height="200px"
+            width="300px"
+            class="second"
+            />
+            <img
+            src="three.JPG"
+            alt="third"
+            height="200px"
+            width="300px"
+            class="third"
+            />
+            <img
+            src="four.jpeg"
+            alt="fourth"
+            height="200px"
+            width="300px"
+            class="fourth"
+            />
+        </div>
+        <div id="blank">
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline elements</title>
+        <style>
+            span{
+                border: 5px solid green; 
+                margin: 3px;        /*no custom margin applicable in span(inline elements) */
+                
+            }
+            div{
+                border: 9px solid purple;
+                margin: 5px;
+            }
+            
+            #test{
+                border: dashed black 7px;
+                margin: 10px;
+                padding: 15px;
+                height: 300px;
+                width: 300px;
+           
+            }
+            .test{
+                border: dotted yellow 5px;
+                width: 100px;
+                height: 200px;
+                padding: 15px;
+                margin: 7px;
+                
+            }
+            #show{
+                display: block;
+            }
+            h1{
+                font-size: 72px;
+                color: brown;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            This is block element
+        </div>
+        <span>this is inline element</span>
+        <span>it is inline</span>
+        <span>that try to come/adjust in a same line</span>
+        <!--what if we use INLINE in between BLOCK ELEMENT-->
+        <!--i.e if we use SPANin between DIV element-->
+        <!--let's check it out-->
+        <div>
+            This is a block element.
+            <span>This is inline element</span>
+            <span>This is inline element</span>
+                <span>This is inline element</span>
+        </div>
+        <h1> another concept</h1>
+        <!--we can change the inline property to block property using DISPLAY tag-->
+        <!--let us understang with an example-->
+        <div class="test">
+            <p>
+                This is a normal paragraph.
+            </p>
+        </div>
+        <span id="show">also a para</span>
+        <span id="show">again</span>
+        <div id="show">
+            <p id="show">check for inline</p>
+            <span id="show">is is inline or not</span>
+            <span id="show">look again</span>
+        </div>
+
+    </body>
+</html>

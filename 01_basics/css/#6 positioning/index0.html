@@ -1,0 +1,56 @@
+<!--static positioning: in this property, the element which you position static, dosent do anything. it is in its default space.-->
+<!-- you can't use top,left,right because it wont matter anymore -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            static positioning
+        </title>
+        <style>
+            .container{
+                border: solid black 1px;
+
+            }
+            img{
+                margin: 10px;
+            }
+            .second{
+                position: static;
+                top: 100px;
+                left: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+            src="one.JPG"
+            alt="first"
+            height="200px"
+            width="300px"
+            class="first"
+            />
+            <img
+            src="two.jpeg"
+            alt="second"
+            height="200px"
+            width="300px"
+            class="second"
+            />
+            <img
+            src="three.JPG"
+            alt="third"
+            height="200px"
+            width="300px"
+            class="third"
+            />
+            <img
+            src="four.jpeg"
+            alt="fourth"
+            height="200px"
+            width="300px"
+            class="fourth"
+            />
+        </div>
+    </body>
+</html>

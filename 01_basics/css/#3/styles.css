@@ -1,0 +1,81 @@
+/* Universal Selectors 
+
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+*/
+
+/*border making with default option*/
+.shuru{
+    
+    border: solid #ff2531 4px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+/*Defining the dimensions of the border*/
+#first{
+    background-color: bisque;
+    border: double;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+/* defining the boder in step by step */
+#second{
+    border: dotted;
+    border-color: chocolate;
+    border-width: 4px;
+    background-color: rgb(100, 32, 122);
+    border-top-left-radius: 5px;
+    border-top-color: black;
+
+}
+/*Now we will study about box sizing*/
+/*it consists of 3 parts
+ (i)content:- Contains all the material that is to be seen
+ (ii)padding:- distance between that material and border box length
+ (iii)border:- Border line or width which surrounds the content
+ (iv)margin:- Outermost region of the box reside outside the border of that element
+ */
+ .third{
+    border: solid #020a53 10px;
+    border-radius: 7px;
+    padding-left: 40;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    background-color: rgb(119,81,68);
+ 
+}
+/*another method of providing padding*/
+p{
+   border: double #775144 6px;
+   border-radius: 5px;
+   padding: 20px 30px 50px 40px; 
+}
+/*More methods for padding*/
+#more{
+    border: solid black 3px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 10px 30px;
+}
+/*Now the time came for margin*/
+.again{
+    border: dashed hsl(12, 30, 15);
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    background-color: #775144;
+
+}
+/*margin shothand*/
+.ok{ border: double maroon 12px;
+background-color: cadetblue;
+margin: 40px 50px 20px 80px;
+padding: 20px 30px;
+}

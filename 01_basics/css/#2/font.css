@@ -1,0 +1,21 @@
+/*using class to implement css*/
+.phla{
+    /*using hsl to choose color*/
+
+    font-family:'Long Cang', cursive;
+    font-size: 25px;
+    color: hsl(21, 62%, 59%);
+    background-color: hsla(118, 71%, 32%, 0.5);
+}
+.sar{
+    font-family: 'Bebas Neue', sans-serif;
+    color:chocolate;
+    text-align: center;
+    font-size: 55px;
+}
+.doosra{
+    font-family: sans-serif;
+    color: coral;
+    font-size:16px;
+    background-color: rgb(125, 10, 160);
+}

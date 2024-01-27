@@ -1,0 +1,26 @@
+/* stylesheet basics */
+#first{
+    color: darkslategrey;
+    background-color: bisque;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: cursive;
+}
+#second{
+    font-weight:900;
+    font-style: oblique;
+}
+/*now choosing color by RGB & RGBA*/
+#third{
+    /*rgb*/
+    color: rgb(13, 105, 67);
+    /*rgba  here a determines the opacity*/
+    background-color: rgba(25, 145,125,0.234);
+}
+/*using hex code for choosing colors*/
+#fourth{
+    color: #ff3245;
+    background-color: #775144;
+    
+}

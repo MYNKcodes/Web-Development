@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box sizing</title>
+        <style>
+
+            *{
+                /* margin: 0;
+                padding: 0; */
+                /* border: 2px rebeccapurple solid; */
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .box{
+                border: solid blueviolet 1px;
+                width:300px ;
+                height:300px ;
+                margin: 25px;
+                padding: 50px;
+                box-sizing: border-box;
+                
+            }
+            #one{
+            height: 100px;
+            width:150px;
+            margin:10px;
+            padding: 25px;
+            border: red 2px solid;
+
+            }
+            #two{
+                height: 150px;
+                width: 99px;
+                box-sizing: border-box;
+                margin:10px;
+            padding: 5px;
+            border:black solid 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="one">
+            This is a web page          <!--check for the dimensions, it would've changed because of addition of margin and padding. -->
+        </div>                          <!--to solve this error we use box sizing method to manage all things within the provided dimension.-->    
+        <div id="two">
+            This is a second line.
+        </div>
+        <div class="box">
+            This is for box sizing.
+        </div>
+    </body>
+</html>
