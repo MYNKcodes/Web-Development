@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display as a flex</title>
+    <style>
+        .sar{
+            border: solid 1px purple;
+            background-color: cornflowerblue;
+        }
+        .def{
+            font-size: x-large;
+        }
+        .container{
+            width: auto;
+            height: 1600px;
+            border: solid black 2px;
+            background-color: beige;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .container2{
+            width: auto;
+            height: 1600px;
+            border: solid black 2px;
+            background-color: beige;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+        }
+        .container3{
+            width: auto;
+            height: 1600px;
+            border: solid black 2px;
+            background-color: beige;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: solid brown 3px;
+            padding: 5px;
+            margin: 5px;
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: blueviolet;
+        }
+        #box4{
+            background-color: chartreuse;
+        }
+        #box5{
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+<div class="sar">
+    <h1>The use of (display: flex;)</h1>
+    <p class="def"> Here if we use flex, the blocks which were earlier aligned vertically, Now convert Horizontly as a default.</br>
+    <em><strong>flex-wrap: "wrap"</strong></em>:- Here the elements arewrapped in a box, and it doesnot allows shrinkage of elements untill the box becomes much small. and the elements shift to the next line</p>
+</div>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+
+    </div>
+
+    <div class="sar">
+        <h1>The use of flex direction</h1>
+        <p class="def"> Here if we use flex direction, the blocks can be sorted in a specified orientation either in row or in columns</p>
+    </div>
+        <div class="container2">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+            <div class="box" id="box5"></div>
+    
+        </div>
+
+
+        <div class="sar">
+            <h1>The use of flex reverse direction</h1>
+            <p class="def"> Here if we use flex direction reverse, the blocks change their order</p>
+        </div>
+            <div class="container3">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+                <div class="box" id="box5"></div>
+        
+            </div>
+        
+    
+</body>
+</html>
